@@ -63,7 +63,7 @@ public class NotasMain {
 	static void mostrarTodas() {
 		double[] notas=notasService.notas();
 		for(int i=0;i<notas.length;i++) {
-			System.out.println(notas[i]);
+			System.out.println("Nota "+(i+1)+": "+notas[i]);
 		}
 	}
 	static void eliminarSuspensos() {
