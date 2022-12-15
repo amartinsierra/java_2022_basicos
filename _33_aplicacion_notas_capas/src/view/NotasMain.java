@@ -30,6 +30,9 @@ public class NotasMain {
 					break;
 				case 6:
 					eliminarSuspensos();
+					break;
+				case 7:
+					System.out.println("---Adios---");
 			}
 		}while(opcion!=7);
 
