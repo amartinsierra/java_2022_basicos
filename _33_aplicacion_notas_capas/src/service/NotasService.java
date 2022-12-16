@@ -60,6 +60,13 @@ public class NotasService {
 			}
 		}
 	}
+	public void subirNotas() {
+		for(int i=0;i<notas.size();i++) {
+			if(notas.get(i)<=9) {
+				notas.set(i, notas.get(i)+1);
+			}
+		}
+	}
 	/*public ArrayList<Double> notas(){
 		return notas;
 	}
