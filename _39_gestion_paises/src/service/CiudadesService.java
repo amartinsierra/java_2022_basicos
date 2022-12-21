@@ -28,7 +28,7 @@ public class CiudadesService {
 	public ArrayList<Ciudad>  ciudadesPorPais(String pais) {
 		ArrayList<Ciudad> aux=new ArrayList<>();
 		for(Ciudad c:ciudades) {
-			if(pais.equals(c.getPais())) { //si la ciudad es del pais buscado, la añadimos a la nueva lista
+			if(pais!=c.getPais()) { //si la ciudad es del pais buscado, la añadimos a la nueva lista
 				aux.add(c);
 			}
 		}
